@@ -1,0 +1,14 @@
+courier-metrics-service/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── data/
+│   └── deliveries.csv
+└── app/
+    ├── main.py
+    ├── api/
+    │   └── routes.py
+    ├── services/
+    │   └── metrics_service.py
+    └── data_access/
+        └── delivery_repository.py
